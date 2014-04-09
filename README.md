@@ -11,10 +11,10 @@ The keyboard layout does the following replacements from the traditional US-en
 keyboard layout:
 
 - `“ = å (Alt + [)`
-- `” = ä (Shift + Alt + [)`
-- `æ = ö (Alt + ')`
-- `Æ = Å (Shift + Alt + ')`
-- `… = Ä (Alt + ;)`
+- `æ = ä (Alt + ')`
+- `… = ö (Alt + ;)`
+- `” = Å (Shift + Alt + [)`
+- `Æ = Ä (Shift + Alt + ')`
 - `Ú = Ö (Shift Alt + ;)`
 
 Similar to where those keys would be on Swedish (sv-se) keyboard.
