@@ -10,12 +10,12 @@ for programming but I need quick access to special characters for communications
 The keyboard layout does the following replacements from the traditional US-en
 keyboard layout:
 
-- “ (Alt + [) = å
-- ” (Shift + Alt + [) = ä
-- æ (Alt + ') = ö
-- Æ (Shift + Alt + ') = Å
-- … (Alt + ;) = Ä
-- Ú (Shift Alt + ;) = Ö
+- `“ = å (Alt + [)`
+- `” = ä (Shift + Alt + [)`
+- `æ = ö (Alt + ')`
+- `Æ = Å (Shift + Alt + ')`
+- `… = Ä (Alt + ;)`
+- `Ú = Ö (Shift Alt + ;)`
 
 Similar to where those keys would be on Swedish (sv-se) keyboard.
 
