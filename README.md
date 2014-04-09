@@ -1,8 +1,8 @@
 # Introduction
 
-This is a custom keyboard input source for people who primarily wish to use a
-US-english keyboard layout but need quick an easy access to Swedish (sv-se)
-special characters åäö and ÅÄÖ.
+This is a custom Mac OS X keyboard input source for people who primarily
+wish to use a US-english keyboard layout but need quick an easy access to
+Swedish (sv-se) special characters åäö and ÅÄÖ.
 
 I find it extremely useful when programming. US keyboard is just much better
 for programming but I need quick access to special characters for communications.
