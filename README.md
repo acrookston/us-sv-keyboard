@@ -15,7 +15,7 @@ keyboard layout:
 - `… = ö (Alt + ;)`
 - `” = Å (Shift + Alt + [)`
 - `Æ = Ä (Shift + Alt + ')`
-- `Ú = Ö (Shift Alt + ;)`
+- `Ú = Ö (Shift + Alt + ;)`
 
 Similar to where those keys would be on Swedish (sv-se) keyboard.
 
