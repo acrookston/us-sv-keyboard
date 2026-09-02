@@ -1,6 +1,6 @@
 # Introduction
 
-This is a custom Mac OS X keyboard input source for people who primarily
+This is a custom macOS keyboard input source for people who primarily
 wish to use a US-english keyboard layout but need quick an easy access to
 Swedish (sv-se) special characters åäö and ÅÄÖ.
 
@@ -25,11 +25,26 @@ Similar to where those keys would be on Swedish (sv-se) keyboard.
 - `git clone https://github.com/acrookston/us-sv-keyboard`
 - `cd us-sv-keyboard`
 - `cp U.S.\ -\ SE.* ~/Library/Keyboard\ Layouts/`
-- Open OS X Settings -> Input Sources and select your new keyboard layout
+- Log out and log back in
+- Open System Settings -> Keyboard -> Input Sources -> Edit and add the layout
 
-If you can't find the new keyboard layout you may need to log out and in again.
+The layout declares Unicode script group 126, so macOS lists it under
+**Others**, not under English.
 
-This has been tested on Mac OS X 10.6 (maybe even 10.5, I forgot) all the way to 10.9.
+
+# Compatibility
+
+Tested on Mac OS X 10.6 through 10.9, and on macOS 26 (Tahoe).
+
+
+# Troubleshooting
+
+If the layout does not appear, macOS writes its parser errors to the unified log:
+
+    log show --last 30m --predicate 'eventMessage CONTAINS "uchr"' --info
+
+`U.S. - SE.icns` is an old single-size icon. If the layout still refuses to
+appear, move it out of `~/Library/Keyboard Layouts/` and log in again.
 
 
 # License
